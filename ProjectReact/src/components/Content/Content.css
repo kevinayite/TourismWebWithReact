@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+/* .ultra-regular {
+    font-family: "Ultra", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    background-image: url('https://bloximages.chicago2.vip.townnews.com/dailypost.vu/content/tncms/assets/v3/editorial/c/ed/ceda642e-c64c-5c24-bf0d-6bb5e83c8385/62bf58dd6d5c4.image.jpg?resize=750%2C422');
+    height: 500px;
+    align-items: center;
+  } */
+/* 
+  .container{
+    
+    
+  } */
+
+  .headline {
+    background-image: url('https://bloximages.chicago2.vip.townnews.com/dailypost.vu/content/tncms/assets/v3/editorial/c/ed/ceda642e-c64c-5c24-bf0d-6bb5e83c8385/62bf58dd6d5c4.image.jpg?resize=750%2C422');
+    background-size: cover; /* Make the image cover the full area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Ensure the image doesn’t repeat */
+    height: 100vh; /* Make the container take the full viewport height */
+    display: flex; /* For centering content inside */
+    justify-content: center;
+    align-items: center;
+}
+
+.ultra-regular{
+  font-family: "Ultra", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    font-size: 1.2rem; /* Adjust size as needed */
+  line-height: 1.5; /* Space between lines */
+  letter-spacing: 0.05em; /* Adjust space between letters */
+  /* text-transform: uppercase; If you want to make the text uppercase */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Adds shadow for emphasis */
+  padding: 10px 10px; /* Add space around the text */
+  margin: 10px 0; /* Adjust margin to control spacing */
+  /* text-align: center;  */
+
+}
+
+.small-text{
+  font-style: normal;
+    color: white;
+    font-family: "Ultra", serif;
+
+}
+
+
+  .box-1{
+    width: 60%;
+    background-color: #f09535;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: -10px; /* Pull the navbar closer to the first line */
+    justify-content: center;
+    /* display: flex; */
+}

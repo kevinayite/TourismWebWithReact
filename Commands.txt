@@ -1,0 +1,27 @@
+npm create vite
+Give it a name
+Select React
+Select JavaScript
+cd nameOfProject
+npm install
+npm run dev
+
+==============================
+rafce shortcut to create 
+============================
+npm i react-icons
+
+
+
+
+<div className="navbar-links">
+        <img src="pictures/logo.png" className="logo" alt="Logo" />
+
+            <ul className="left">
+                <li>HOME</li>
+                <li>About</li>
+                <li>Tour</li>
+                <li>Blog</li>
+                <li>Contact US</li>
+            </ul>
+        </div>

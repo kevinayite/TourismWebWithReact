@@ -1,0 +1,62 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .about-left {
+    flex: 1;
+    padding-left: 45px; /* Changed from right to left for spacing between text and images */
+  }
+
+  /* button{
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #f09535;
+    cursor: pointer;
+    
+  } */
+  button {
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #f09535;
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+button:hover {
+    background-color: gray; /* Change color on hover */
+    color: white; /* Optional: change text color for better contrast */
+    /* border-color: #f09535; */
+}
+
+  
+  .about-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .about-img {
+    width: 90%;
+    height: auto;
+    border: 3px solid #f09535;
+    padding: 10px;
+  }
+  
+  .large-img {
+    width: 100%;
+  }
+  
+  .small-img {
+    width: 45%;
+    align-self: flex-start;
+  }
+  
+  span, h2 {
+    color: #f09535;
+  }
+  

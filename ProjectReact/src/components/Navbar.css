@@ -1,0 +1,86 @@
+
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+} */
+
+
+
+/* First line container for contact and social icons */
+.first-line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 35px;
+    /* padding: 20px 50px; Adjusted padding for better balance */
+    /* border-bottom: 2px solid #d48027; Add a separator line */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); Optional shadow */
+}
+
+.contact-info, .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px; /*Space between items*/
+}
+
+.social-icons .icon-style:not(:last-child)::after {
+    content: '|';
+    margin-left: 5px; /* Space between icon and separator */
+}
+
+.icon-style {
+    color: #d48027;
+    font-size: 24px;
+}
+
+.icon-style:hover {
+    color: #ff7f50;
+    cursor: pointer;
+}
+
+/* Navbar styles */
+.navbar {
+    width: 80%;
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: -25px; /* Pull the navbar closer to the first line */
+    justify-content: space-between;
+    align-items: center;
+    margin: -25px auto 0;      /* Use margin: auto to center the navbar horizontally */
+    display: flex;             /* Flexbox for alignment */
+    
+    
+}
+
+.logo {
+    height: 50px;                  /* Adjust logo size if needed */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 30px;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #d48027;
+}
+
+
+
+
+
