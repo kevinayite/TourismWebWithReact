@@ -1,0 +1,25 @@
+
+.gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;  /* Hide horizontal scrollbar */
+    gap: 20px;
+}
+
+.gallery-item {
+    min-width: 300px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.info {
+    margin-top: 10px;
+}
