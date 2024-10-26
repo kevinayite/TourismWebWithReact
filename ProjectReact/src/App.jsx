@@ -6,6 +6,7 @@ import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
 //import AppCss from './App.css';
 import './index.css'
+import GalleryBeauty from "./GalleryBeauty/GalleryBeauty";
 
 
 
@@ -105,6 +106,7 @@ image: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ0zsfdywnyhJKo7YS7
             <NavBar />
             <Content />
             <About />
+            <GalleryBeauty items={items} />
             
             <div className="App">
             <h3>| Amazing Offers</h3>
@@ -114,6 +116,7 @@ image: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ0zsfdywnyhJKo7YS7
                 <Gallery items={items} />
             </div>
             <Footer/>
+            
         </div>
     );
 };

@@ -1,0 +1,100 @@
+.gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+.gallery-item {
+    min-width: 300px;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    background-color: #fff;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 15px;
+}
+
+.location {
+    display: inline-block;
+    background-color: #d2a75b;
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.description {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.details span {
+    font-size: 0.8em;
+    color: #777;
+}
+
+.details p {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+
+
+.book-now:hover {
+    background-color: #b7904d;
+}
+.price-button-container {
+    display: flex;
+    justify-content: space-between; /* Aligns items to the left and right */
+    align-items: center; /* Vertically centers items */
+    margin: 10px 0; /* Optional: adds space around the container */
+}
+
+.price {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.book-now {
+    background-color: #d2a75b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+}
