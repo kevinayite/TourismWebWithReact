@@ -7,6 +7,8 @@ import Footer from "./components/Footer/Footer";
 //import AppCss from './App.css';
 import './index.css'
 import GalleryBeauty from "./GalleryBeauty/GalleryBeauty";
+//import BackgroundVideo from "./components/BackgroundVideo/BackgroundVideo";
+import Test from "./components/test";
 
 
 
@@ -103,10 +105,13 @@ image: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ0zsfdywnyhJKo7YS7
 
     return (
         <div>
+          
             <NavBar />
             <Content />
             <About />
             <GalleryBeauty items={items} />
+            {/* <BackgroundVideo/> */}
+            <Test/>
             
             <div className="App">
             <h3>| Amazing Offers</h3>
@@ -116,6 +121,8 @@ image: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ0zsfdywnyhJKo7YS7
                 <Gallery items={items} />
             </div>
             <Footer/>
+            
+            
             
         </div>
     );

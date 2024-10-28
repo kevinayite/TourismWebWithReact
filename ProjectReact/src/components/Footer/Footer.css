@@ -47,7 +47,7 @@
 
 .newsletter-form button {
     padding: 10px;
-    background-color: #f09535;
+    background-color: #b7904d;
     color: white;
     border: none;
     border-radius: 4px;
@@ -104,7 +104,7 @@
     display: inline-block;
     width: 2px; /* Width of the vertical line */
     height: 40px; /* Height of the vertical line */
-    background-color: #f09535; /* Color of the line */
+    background-color: #b7904d; /* Color of the line */
     position: absolute;
     left: 0;
     top: 50%;

@@ -15,27 +15,30 @@ const GalleryItem = ({ image, price, reductionRate, location }) => {
         
         <div className="gallery-item">
             {isLoading ? (
-                <Skeleton height={200} width={300} />
+                <Skeleton height={100} width={150} />
             ) : (
-                <img src={image} alt="gallery" height={200} width={300} />
+                <img src={image} alt="gallery" height={100} width={150} />
             )}
-            <div className="info">
+            {/* <div className="info">
                 {isLoading ? (
                     <Skeleton width={100} />
                 ) : (
-                    <p>Price: ${price}</p>
+                    // <p>Price: ${price}</p>
+                    <p> {}</p>
                 )}
                 {isLoading ? (
                     <Skeleton width={80} />
                 ) : (
-                    <p>Reduction: {reductionRate}%</p>
+                    // <p>Reduction: {reductionRate}%</p>
+                    <p>{}</p>
                 )}
                 {isLoading ? (
                     <Skeleton width={120} />
                 ) : (
-                    <p>Location: {location}</p>
+                    // <p>Location: {location}</p>
+                    <p>{}</p>
                 )}
-            </div>
+            </div> */}
         </div>
     );
 };

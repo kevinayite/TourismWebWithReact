@@ -1,62 +1,9 @@
-// import { useState, useEffect, useRef } from 'react';
-// import Skeleton from 'react-loading-skeleton';
-// import 'react-loading-skeleton/dist/skeleton.css';
-// import './GalleryBeauty.css';
-
-
-// const GalleryBeauty = ({ items }) => {
-//     const [isLoading, setIsLoading] = useState(true);
-
-//     useEffect(() => {
-//         const timer = setTimeout(() => setIsLoading(false), 2000); // Simulate image loading
-//         return () => clearTimeout(timer);
-//     }, []);
-
-//     return (
-//         <div className="gallery">
-//             {items.map((item, index) => (
-//                 <div className="gallery-item" key={index}>
-//                     {isLoading ? (
-//                         <Skeleton height={200} width={300} />
-//                     ) : (
-//                         <img src={item.image} alt="gallery" className="gallery-image" />
-//                     )}
-//                     <div className="content">
-//                         <span className="location">{isLoading ? <Skeleton width={100} /> : item.location}</span>
-//                         <h2>Holiday Planners is a World Leading Online Tour Booking Platform</h2>
-//                         <p className="description">
-//                             {isLoading ? (
-//                                 <Skeleton width={200} />
-//                             ) : (
-//                                 "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia..."
-//                             )}
-//                         </p>
-//                         <div className="details">
-//                             <div className="duration">
-//                                 <span>Duration</span>
-//                                 <p>{isLoading ? <Skeleton width={80} /> : "7 days 8 hours"}</p>
-//                             </div>
-//                             <div className="group-size">
-//                                 <span>Group Size</span>
-//                                 <p>{isLoading ? <Skeleton width={80} /> : "50+ People"}</p>
-//                             </div>
-//                         </div>
-//                         <p className="price">{isLoading ? <Skeleton width={60} /> : `$${item.price}`}</p>
-//                         <button className="book-now">BOOK NOW</button>
-//                     </div>
-//                 </div>
-//             ))}
-//         </div>
-//     );
-// };
-// export default GalleryBeauty;
-
-
-
 import { useState, useEffect, useRef } from 'react';
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 import './GalleryBeauty.css';
+import { FaUserGroup } from "react-icons/fa6";
+import { MdAccessTimeFilled } from "react-icons/md";
 
 const GalleryBeauty = ({ items }) => {
     const [isLoading, setIsLoading] = useState(true);
@@ -109,11 +56,14 @@ const GalleryBeauty = ({ items }) => {
                             )}
                         </p>
                         <div className="details">
+                        <MdAccessTimeFilled className='icons'/>
                             <div className="duration">
                                 <span>Duration</span>
                                 <p>{isLoading ? <Skeleton width={80} /> : "7 days 8 hours"}</p>
                             </div>
+                            <FaUserGroup className='icons'/>
                             <div className="group-size">
+                            
                                 <span>Group Size</span>
                                 <p>{isLoading ? <Skeleton width={80} /> : "50+ People"}</p>
                             </div>

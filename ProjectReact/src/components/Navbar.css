@@ -33,12 +33,12 @@
 }
 
 .icon-style {
-    color: #d48027;
+    color: #b7904d;
     font-size: 24px;
 }
 
 .icon-style:hover {
-    color: #ff7f50;
+    color: #b7904d;
     cursor: pointer;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .nav-links a:hover {
-    color: #d48027;
+    color: #b7904d;
 }
 
 
