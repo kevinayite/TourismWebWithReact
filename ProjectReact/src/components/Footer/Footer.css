@@ -138,3 +138,28 @@
 
 
 
+/* Existing styles... */
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center the footer content */
+    }
+    ul{
+        text-align: left;
+    }
+
+    .footer-column {
+        
+        flex-direction: column; /* Stack columns vertically */
+        align-items: flex-start; /* Align all columns to the left */
+    }
+
+    .footer-column:nth-child(3) {
+        text-align: left; /* Align the third column's text to the left */
+        margin: 0; /* Remove margin for the third column */
+        width: 100%; /* Ensure it takes full width */
+    }
+}
+
+

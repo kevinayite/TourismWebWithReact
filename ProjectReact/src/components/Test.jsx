@@ -7,7 +7,9 @@ const Test = () => {
         <div className="cont4">
         <div className='video-container'>
           <video autoPlay muted loop>
-            <source src="https://html.geekcodelab.com/holiday-planners/assets/images/highlight-video.mp4" type="video/mp4" />
+            {/* <source src="https://html.geekcodelab.com/holiday-planners/assets/images/highlight-video.mp4" type="video/mp4" /> */}
+            <source src="https://v1.pinimg.com/videos/mc/expMp4/e2/08/57/e20857a86aafe36b32f5d2f56338d486_t1.mp4" type="video/mp4" />
+            
           </video>
         </div>
         <div className='sec-wrap1'>

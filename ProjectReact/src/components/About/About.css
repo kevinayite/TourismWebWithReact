@@ -3,6 +3,9 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
+    /* background-color: red; */
+    margin-left: 30px;
+    margin-right: 30px;
   }
   
   .about-left {
@@ -60,3 +63,28 @@ button:hover {
     color: #b7904d;
   }
   
+
+
+
+  /* Add this media query at the end of your CSS file */
+@media (max-width: 768px) {
+  .about-container {
+      flex-direction: column; /* Stack items vertically */
+      align-items: left; /* Center align */
+  }
+
+  .about-left {
+      padding-left: 0; /* Remove left padding */
+      padding-top: 20px; /* Add some space above the text */
+      text-align: left; /* Center text for better appearance */
+  }
+
+  .about-right {
+      gap: 10px; /* Adjust gap for smaller screens */
+  }
+
+  .small-img {
+      width: 80%; /* Make small image larger on mobile */
+      align-self: center; /* Center small image */
+  }
+}

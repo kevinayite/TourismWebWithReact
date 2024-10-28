@@ -100,3 +100,58 @@ video {
         font-size: 18px; /* Reduced font size */
     }
 }
+
+/* Existing styles... */
+
+/* Media query for max-width: 600px */
+@media (max-width: 600px) {
+    .cont4 {
+        margin-top: 0;
+        height: auto; /* Allow height to adjust based on content */
+        padding: 10px; /* Add some padding for better spacing */
+    }
+
+    .video-container {
+        height: 50vh; /* Set a height for the video on mobile */
+        overflow: hidden; /* Hide any overflow from the video */
+    }
+
+    video {
+        object-fit: cover; /* Cover the area without distortion */
+    }
+
+    .cont4 .sec-wrap1 {
+        width: 90%; /* Adjust width */
+        height: auto; /* Adjust height to fit content */
+        padding: 20px; /* Added padding */
+        top: 10%; /* Position higher up */
+    }
+
+    .sec-wrap1 h1 {
+        font-size: 24px; /* Reduced font size */
+        line-height: 1.2; /* Better line height for readability */
+    }
+
+    .sec-wrap1 h2 {
+        font-size: 20px; /* Reduced font size */
+        margin: 10px 0; /* Adjusted margin */
+    }
+
+    .cont4 .content {
+        bottom: -50px; /* Adjust the position */
+        right: 0; /* Align to the right */
+        height: auto; /* Allow height to adjust */
+        flex-direction: column; /* Stack items */
+        padding: 10px; /* Add padding */
+    }
+
+    .tour-service-box {
+        align-items: center; /* Center items */
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .tour-service-content h4 {
+        font-size: 16px; /* Reduced font size */
+        text-align: center; /* Center align text */
+    }
+}
