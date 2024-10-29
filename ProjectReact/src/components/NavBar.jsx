@@ -14,7 +14,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container-navbar">
       <div className="first-line">
         <div className="contact-info">
           <IoIosMail className="icon-style" />

@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .icons-contact-info{
+    color:#D4AF37;
+  }
+  
+  .map {
+    flex: 1;
+    max-width: 60%;
+  }
+  
+  .map iframe {
+    border: 0;
+    width: 100%;
+    height: 500px;
+  }
+  

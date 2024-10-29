@@ -2,7 +2,7 @@ import './Content.css'
 const Content = () => {
   return ( 
     <div className="container">
-        <div className='headline'>
+        <div className='headline-home-content'>
           <center>
         <div className='ultra-regular'>
         

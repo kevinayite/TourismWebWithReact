@@ -2,7 +2,7 @@ import "./FormComponent.css"; // Import the CSS file for styling
 import { FaUser, FaEnvelope, FaPhone, FaClipboardList } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
-import Footer from "../Footer/Footer";
+
 
 function FormComponent() {
   return (
@@ -53,7 +53,7 @@ function FormComponent() {
       </div>
       
     </div>
-    <Footer/>
+    
     </div>
   );
 }

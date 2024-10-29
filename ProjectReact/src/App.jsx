@@ -4,14 +4,11 @@ import Content from "./components/Content/Content";
 import About from "./components/About/About";
 import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
-//import AppCss from './App.css';
+
 import './index.css'
 import GalleryBeauty from "./GalleryBeauty/GalleryBeauty";
 //import BackgroundVideo from "./components/BackgroundVideo/BackgroundVideo";
-import Test from "./components/test";
-import Features from "./components/Features/Features";
-import AboutPage from "./components/AboutPage/AboutPage";
-import FormComponent from "./components/FormComponents/FormComponent";
+import Test from "./components/Home/test/Test";
 
 
 
@@ -124,10 +121,7 @@ image: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ0zsfdywnyhJKo7YS7
                 <Gallery items={items} />
             </div>
             <Footer/>
-
-            <Features/>
-            <AboutPage/>
-            <FormComponent/>
+            {/* <AboutPage/> */}
             
             
             
