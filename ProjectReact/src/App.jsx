@@ -9,6 +9,9 @@ import './index.css'
 import GalleryBeauty from "./GalleryBeauty/GalleryBeauty";
 //import BackgroundVideo from "./components/BackgroundVideo/BackgroundVideo";
 import Test from "./components/test";
+import Features from "./components/Features/Features";
+import AboutPage from "./components/AboutPage/AboutPage";
+import FormComponent from "./components/FormComponents/FormComponent";
 
 
 
@@ -121,6 +124,10 @@ image: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ0zsfdywnyhJKo7YS7
                 <Gallery items={items} />
             </div>
             <Footer/>
+
+            <Features/>
+            <AboutPage/>
+            <FormComponent/>
             
             
             
