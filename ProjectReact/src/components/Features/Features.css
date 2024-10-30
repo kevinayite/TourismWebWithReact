@@ -1,29 +1,39 @@
 .features-container {
-    display: flex;
-    justify-content: space-around;
-    background: linear-gradient(to bottom, #b7904d, #3a2a1e);
-    padding: 20px;
-    color: white;
-  }
-  
-  .feature-item {
-    text-align: center;
-    max-width: 200px;
-  }
-  
-  .feature-icon {
-    font-size: 40px;
-    margin-bottom: 10px;
-  }
-  
-  h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  
-  p {
-    font-size: 14px;
-    color: #ddd;
-  }
-  
+  display: flex;
+  justify-content: space-around;
+  /* background: linear-gradient(to bottom, #b7904d, #3a2a1e); */
+  padding: 20px;
+  color: white;
+}
+
+.feature-item {
+  text-align: center;
+  width: 200px; /* Fixed width */
+  height: 200px; /* Fixed height to make it a square */
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  border: 1px solid #fff; /* Optional: add border for visibility */
+  /* border-radius: 10px; Optional: round corners */
+  padding: 10px; /* Optional: add some padding */
+  border-color:#b7904d;
+}
+
+.feature-icon {
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: #b7904d;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: black;
+}
+
+.feature-item p {
+  font-size: 14px;
+  color: gray;
+}

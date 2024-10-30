@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+.headline-about {
+  background-image: url('https://media.istockphoto.com/id/1402604850/photo/the-word-about-us-on-wooden-cubes-business-communication-and-information.jpg?s=612x612&w=0&k=20&c=Oc2HZUPVJRXFsjTwKVgWY_ddWrKeQUG0KCyKUGef-ig=');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.ultra-regular-about {
+  font-family: "Ultra", serif;
+  font-weight: 500; /* Adjusted for better visibility */
+  color: white;
+  font-size: 1.5rem; /* Adjust size as needed */
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  margin: 10px 0;
+}

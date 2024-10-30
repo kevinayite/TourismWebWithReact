@@ -1,0 +1,56 @@
+/* ChateauInverse.css */
+
+.container-inverse {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Space out the left and right sections */
+    padding: 20px; /* Add some padding around the container */
+  }
+  
+  .left-section-inverse {
+    flex: 1; /* Allow this section to take up more space */
+    max-width: 60%; /* Limit the width of the left section */
+    margin-right: 25px; /* Small space between sections */
+    justify-content: center;
+    margin-left: 260px;
+  }
+  
+  .right-section-inverse {
+    flex: 1; /* Allow this section to take up space */
+    display: flex; /* Use flexbox to center the image */
+    justify-content: right; /* Center image horizontally */
+  }
+  
+  .image {
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add some border radius */
+  }
+  
+  h4 {
+    margin: 0 0 10px; /* Space below heading */
+  }
+  
+  p {
+    margin: 0 0 15px; /* Space below paragraph */
+  }
+  
+  .checklist-container {
+    margin-top: 10px; /* Space above checklist */
+  }
+  
+  .checklist {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+  }
+  
+  .checklist li {
+    display: flex; /* Align items in checklist */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 5px; /* Space between checklist items */
+  }
+  
+  .checklist li svg {
+    margin-right: 8px; /* Space between icon and text */
+  }
+  

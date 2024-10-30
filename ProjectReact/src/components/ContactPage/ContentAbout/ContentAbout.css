@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
-.headline-about {
+.headline-contact {
   background-image: url('https://media.istockphoto.com/id/1346944001/photo/close-up-of-co-workers-stacking-their-hands-together.jpg?s=612x612&w=0&k=20&c=lidJcFUSR3rkMt4B0yoNwH55lz3sth9o2280keqBXGE=');
   background-size: cover;
   background-position: center;
@@ -12,14 +12,14 @@
   
 }
 
-.ultra-regular {
+/* .ultra-regular {
   font-family: "Ultra", serif;
-  font-weight: 500; /* Adjusted for better visibility */
+  font-weight: 500; 
   color: white;
-  font-size: 1.5rem; /* Adjust size as needed */
+  font-size: 1.5rem;
   line-height: 1.5;
   letter-spacing: 0.05em;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   padding: 10px;
   margin: 10px 0;
-}
+} */

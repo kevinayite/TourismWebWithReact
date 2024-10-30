@@ -3,7 +3,7 @@ import './ContentAbout.css';
 
 const ContentAbout = () => {
   return (
-    <div className='headline-about'>
+    <div className='headline-contact'>
       <h1 className='ultra-regular'>Contact Us </h1>
     </div>
   );

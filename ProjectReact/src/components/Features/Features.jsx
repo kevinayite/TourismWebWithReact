@@ -12,21 +12,21 @@ const Features = () => {
         <div className="feature-icon">
         <FaBus />
         </div>
-        <h3>700+ DESTINATIONS</h3>
+        <h3>Private Transport</h3>
         <p>Far far away, behind the word mountains, far countries Vokalia.</p>
       </div>
       <div className="feature-item">
         <div className="feature-icon">
         <TiWorld />
         </div>
-        <h3>BEST PRICE GUARANTEE</h3>
+        <h3>Diverse Destinations</h3>
         <p>Far far away, behind the word mountains, far countries Vokalia.</p>
       </div>
       <div className="feature-item">
         <div className="feature-icon">
         <FaHotel />
         </div>
-        <h3>TOP NOTCH SUPPORT</h3>
+        <h3>Great Hotels</h3>
         <p>Far far away, behind the word mountains, far countries Vokalia.</p>
       </div>
 
@@ -34,7 +34,7 @@ const Features = () => {
         <div className="feature-icon">
         <FaUserClock />
         </div>
-        <h3>TOP NOTCH SUPPORT</h3>
+        <h3>Fast Booking</h3>
         <p>Far far away, behind the word mountains, far countries Vokalia.</p>
       </div>
     </div>

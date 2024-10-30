@@ -9,11 +9,7 @@
     height: 500px;
     align-items: center;
   } */
-/* 
-  .container{
-    
-    
-  } */
+
 
   .headline-home-content {
     background-image: url('https://bloximages.chicago2.vip.townnews.com/dailypost.vu/content/tncms/assets/v3/editorial/c/ed/ceda642e-c64c-5c24-bf0d-6bb5e83c8385/62bf58dd6d5c4.image.jpg?resize=750%2C422');
@@ -24,6 +20,7 @@
     display: flex; /* For centering content inside */
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .ultra-regular{

@@ -1,0 +1,76 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-left {
+    flex: 1;
+    padding-right: 45px; /* Adjusted from left to right for spacing between text and images */
+}
+
+/* button {
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #b7904d;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+} */
+
+/* button:hover {
+    background-color: gray;
+    color: white;
+} */
+
+.about-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-img {
+    width: 60%;
+    height: auto;
+    border: 3px solid #b7904d;
+    padding: 10px;
+}
+
+.large-img {
+    width: 90%;
+}
+
+.small-img {
+    width: 45%;
+    align-self: flex-start;
+}
+
+span, h2 {
+    color: #b7904d;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align to the left */
+    }
+
+    .about-left {
+        padding-right: 0; /* Remove right padding */
+        padding-top: 20px; /* Add some space above the text */
+        text-align: left; /* Align text to the left */
+    }
+
+    .about-right {
+        gap: 10px; /* Adjust gap for smaller screens */
+    }
+
+    .small-img {
+        width: 80%; /* Make small image larger on mobile */
+        align-self: center; /* Center small image */
+    }
+}

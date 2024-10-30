@@ -56,9 +56,7 @@ const NavBar = () => {
           <li className="nav-item">
             <a href="#tour">Tour</a>
           </li>
-          <li className="nav-item">
-            <a href="#blog">Blog</a>
-          </li>
+          
           <li className="nav-item">
             <a href="#contact">Contact us</a>
           </li>
@@ -83,10 +81,7 @@ const NavBar = () => {
             </li>
             <li className="sidebar-item">
               <a href="#tour">Tour</a>
-            </li>
-            <li className="sidebar-item">
-              <a href="#blog">Blog</a>
-            </li>
+            </li>           
             <li className="sidebar-item">
               <a href="#contact">Contact us</a>
             </li>

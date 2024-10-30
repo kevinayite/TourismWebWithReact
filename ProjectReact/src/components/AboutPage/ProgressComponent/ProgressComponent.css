@@ -1,0 +1,59 @@
+.progress-container {
+    display: flex;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  .text-section {
+    flex: 1;
+    padding-right: 20px;
+    color: #333;
+  }
+  
+  .text-section h4 {
+    font-size: 2em;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .text-section p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  .progress-section {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .progress-bar-container {
+    margin-bottom: 15px;
+  }
+  
+  .progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    /* color: #666; */
+  }
+  
+  .progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    height: 8px;
+    margin-top: 5px;
+  }
+  
+  .progress-fill {
+    height: 70%;
+    /* border-radius: 4px; */
+    background-color: #c8a165; /* Customize color for progress */
+  }
+  
+  .percentage {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
