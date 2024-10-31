@@ -1,0 +1,19 @@
+.headline-destination {
+    background-image: url('https://images.pexels.com/photos/792726/pexels-photo-792726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .ultra-destination {
+    font-family: 'Ultra', sans-serif; /* Ensure the font is applied */
+    font-size: 4rem; /* Adjust font size to be larger */
+    color: white; /* Change text color for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Add shadow for better visibility */
+  }
+  

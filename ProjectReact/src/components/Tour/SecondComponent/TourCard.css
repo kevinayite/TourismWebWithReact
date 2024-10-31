@@ -1,0 +1,77 @@
+.tour-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    height: 33%;
+}
+.icons-card{
+    color: #d6a853;
+}
+
+.tour-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
+.discount {
+    position: absolute;
+    /* top: 10px; */
+    left: 10px;
+    background-color: #d6a853;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    writing-mode: vertical-rl; /* Change the writing mode to vertical */
+    text-align: center; /* Center the text for better alignment */
+}
+
+
+.country-tag {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #d6a853;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.tour-info {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.book-now-card {
+    padding: 10px;
+    background-color: #d6a853;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
+

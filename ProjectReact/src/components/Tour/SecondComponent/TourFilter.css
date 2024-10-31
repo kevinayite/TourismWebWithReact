@@ -1,0 +1,150 @@
+.tour-filter {
+    width: 70%; 
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.input-container input,
+.input-container select {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+}
+
+.input-icon {
+    margin-right: 10px;
+    color: #d6a853;
+}
+
+.price-range {
+    display: flex;
+    justify-content: space-between; /* Aligns items in the container */
+    margin-top: 10px;
+}
+
+.price-input {
+    display: flex;
+    flex-direction: column; 
+    width: 100px; /* Set width for consistency */
+}
+
+.price-input  {
+    margin-bottom: 5px; 
+}
+
+.categories  {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    font-size: 0.9em;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduced gap for closer alignment */
+    margin-top: 10px;
+}
+
+
+.categories label {
+    display: flex;
+    align-items: left; /* Aligns checkbox and label text */
+    font-size: 1.1em;
+    color: #333;
+}
+.categories input[type="checkbox"] {
+    width: 20px; /* Increased size */
+    height: 20px; /* Increased size */
+    accent-color: #d6a853; /* Custom color when checked */
+    cursor: pointer;
+}
+
+/* .find-now {
+    width: 100%;
+    padding: 10px;
+    background-color: #d6a853;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+} */
+.find-now {
+    width: 100%;
+    padding: 10px;
+    background-color: #d6a853;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.6s ease; /* Smooth transition */
+}
+
+.find-now:hover {
+    background-color: #000000; /* Changes to black on hover */
+}
+
+.info-section-tour {
+    width: 340px;
+  }
+  
+  .why-book-tour,
+  .get-question-tour {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    width: 55%;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  .get-question-tour {
+    background-color: #b8923d;
+  }
+  
+  .get-question-tour p {
+    margin: 8px 0;
+  }
+  
+  .why-book-tour {
+    background-color: #D3D3D3;
+  }
+  
+  .get-icon-tour {
+    color: black;
+  }
+  

@@ -12,14 +12,9 @@
   
 }
 
-/* .ultra-regular {
-  font-family: "Ultra", serif;
-  font-weight: 500; 
-  color: white;
-  font-size: 1.5rem;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-  padding: 10px;
-  margin: 10px 0;
-} */
+.ultra-contact {
+  font-family: 'Ultra', sans-serif; /* Ensure the font is applied */
+  font-size: 4rem; /* Adjust font size to be larger */
+  color: white; /* Change text color for contrast */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Add shadow for better visibility */
+}

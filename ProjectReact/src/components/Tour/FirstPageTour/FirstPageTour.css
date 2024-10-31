@@ -1,0 +1,19 @@
+.headline-tour {
+    background-image: url('https://bsmedia.business-standard.com/_media/bs/img/article/2024-08/07/full/1722995892-9811.jpg?im=FeatureCrop,size=(826,465)');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .ultra-tour {
+    font-family: 'Ultra', sans-serif; /* Ensure the font is applied */
+    font-size: 4rem; /* Adjust font size to be larger */
+    color: white; /* Change text color for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Add shadow for better visibility */
+  }
+  
