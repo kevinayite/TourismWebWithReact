@@ -4,6 +4,7 @@ import visaLogo from './logos-picture/visa.jpg';
 import masterLogo from './logos-picture/mastercard.png';
 import paypalLogo from './logos-picture/paypal.jpg';
 import expressLogo from './logos-picture/american-express.png';
+import { Link } from 'react-router-dom'; // Import Link
 
 const Footer = () => {
   return (
@@ -31,13 +32,20 @@ const Footer = () => {
         <h3>Navigation</h3>
         </div>
         <ul className="square-list">
-          <li><a href="/home">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/services">Destination</a></li>
-          <li><a href="/contact">Tour</a></li>
-          <li><a href="/contact">Blog</a></li>
-          <li><a href="/contact">Contact us</a></li>
-        </ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/destination">Destination</Link></li>
+            <li><Link to="/tour">Tour</Link></li>
+            <li><Link to="/contact">Contact us</Link></li>
+          </ul>
+        {/* <ul className="square-list">
+          <li><a >Home</a></li>
+          <li><a >About</a></li>
+          <li><a >Destination</a></li>
+          <li><a >Tour</a></li>
+          <li><a >Blog</a></li>
+          <li><a >Contact us</a></li>
+        </ul> */}
       </div>
       <div className="footer-column">
         <div className='line'>

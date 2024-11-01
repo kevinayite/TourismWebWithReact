@@ -5,6 +5,7 @@ import { IoIosMail } from "react-icons/io";
 import { FaPhoneAlt, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { IoMenu, IoClose } from "react-icons/io5";
 import './NavBar.css';
+import { Link } from 'react-router-dom'; // Import Link
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,20 +46,20 @@ const NavBar = () => {
         {/* Desktop Navigation */}
         <ul className="nav-links">
           <li className="nav-item current">
-            <a href="#home">Home</a>
+          <Link to="/">Home</Link>
           </li>
           <li className="nav-item">
-            <a href="#about">About</a>
+          <Link to="/about">About</Link>
           </li>
           <li className="nav-item">
-            <a href="#destination">Destination</a>
+          <Link to="/destination">Destination</Link>
           </li>
           <li className="nav-item">
-            <a href="#tour">Tour</a>
+          <Link to="/tour">Tour</Link>
           </li>
           
           <li className="nav-item">
-            <a href="#contact">Contact us</a>
+          <Link to="/contact">Contact us</Link>
           </li>
         </ul>
 

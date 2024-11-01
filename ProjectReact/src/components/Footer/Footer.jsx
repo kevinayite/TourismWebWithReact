@@ -33,7 +33,7 @@ const Footer = () => {
         <ul className="square-list">
           <li><a href="/home">Home</a></li>
           <li><a href="/about">About</a></li>
-          <li><a href="/services">Destination</a></li>
+          <li><a href="/destination">Destination</a></li>
           <li><a href="/contact">Tour</a></li>
           <li><a href="/contact">Contact us</a></li>
         </ul>
